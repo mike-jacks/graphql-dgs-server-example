@@ -10,10 +10,11 @@ public class SubmittedEmployee {
     private LocalDate hire_date;
     private Integer deptId;
 
-    public SubmittedEmployee() {
+    public SubmittedEmployee(String test, String user, Gender M, LocalDate of, LocalDate of1, int par) {
     }
 
-    public SubmittedEmployee(String first_name, String last_name, Gender gender, LocalDate birth_date, LocalDate hire_date, Integer deptId) {
+    public SubmittedEmployee(String first_name, String last_name, Gender gender, LocalDate birth_date,
+            LocalDate hire_date, Integer deptId) {
         this.first_name = first_name;
         this.last_name = last_name;
         this.gender = gender;
