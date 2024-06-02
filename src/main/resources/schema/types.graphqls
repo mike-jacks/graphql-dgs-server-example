@@ -1,0 +1,18 @@
+type Employee {
+    id: ID!
+    first_name: String!
+    last_name: String!
+    gender: Gender
+    birth_date: Date
+    hire_date: Date
+    department: Department!
+}
+
+type Department {
+    id: ID!
+    dept_name: String!
+    employees: [Employee!]
+}
+
+
+

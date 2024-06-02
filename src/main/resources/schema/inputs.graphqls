@@ -1,0 +1,12 @@
+input SubmittedEmployee {
+    first_name: String!
+    last_name: String!
+    gender: Gender
+    birth_date: Date
+    hire_date: Date
+    deptId: Int!
+}
+
+input SubmittedDepartment {
+    dept_name: String!
+}

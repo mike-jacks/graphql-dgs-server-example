@@ -1,0 +1,5 @@
+type Mutation {
+    createDepartment(department: SubmittedDepartment) : Department
+    createEmployee(employee: SubmittedEmployee) : Employee
+    updateEmployeeDepartment(employeeId: Int!, departmentId: Int!) : Boolean
+}
